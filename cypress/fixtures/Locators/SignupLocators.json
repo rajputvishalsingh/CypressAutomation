@@ -1,0 +1,6 @@
+{
+  "signup": "#signin2",
+  "signUpName": "#sign-username",
+  "signUpPassword": "#sign-password",
+  "signUpButton": "button[onClick='register()']"
+}

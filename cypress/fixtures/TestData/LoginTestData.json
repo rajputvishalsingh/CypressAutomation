@@ -1,0 +1,7 @@
+{
+  "invalidUser": { "user": "Vishal11", "password": "123456543" },
+  "invalidPassword": { "user": "Vishal24", "password": "123456543" },
+  "validLoginData": { "user": "vishal24", "password": "123456" },
+  "user": "Vishal24",
+  "password": "123456"
+}

@@ -1,0 +1,7 @@
+{
+  "oneproducts": ["lumia 1520"],
+  "twoproducts": ["galaxy s6", "lumia 1520"],
+  "multipleproducts": ["galaxy s6", "Nexus 6", "lumia 1520", "vaio i5"],
+  "deleteoneproduct": ["vaio i5"],
+  "addproduct": ["vaio i7"]
+}

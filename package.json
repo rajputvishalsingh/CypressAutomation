@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "cypress-downloadfile": "^1.2.3",
+    "cypress-real-events": "^1.10.0",
+    "download-file": "^0.1.5",
+    "fs": "^0.0.1-security",
+    "pdf-parse": "^1.1.1",
+    "typescript": "^5.1.6"
+  },
+  "scripts": {
+    "test": "npx cypress run",
+    "headTest": "npm run test --headed",
+    "chromeTest": "npm run test --browser chrome",
+    "recordDashBoardTest": "npm run test --record --key fa423514-5a84-42a7-b6a0-b5e7191bba12 --reporter mochawesome",
+    "demoBlaze": "npm run test --spec \"cypress/integration/*\""
+  },
+  "devDependencies": {
+    "cy-verify-downloads": "^0.1.15",
+    "cypress": "^12.17.3"
+  }
+}

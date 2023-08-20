@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "baseUrl": "http://demoblaze.com/index.html",
+    "target": "es2016",
+
+    "module": "commonjs",
+
+    "lib": ["dom", "es6", "es7"],
+
+    "types": ["node", "cypress"],
+
+    "strict": true,
+
+    "skipLibCheck": true,
+
+    "resolveJsonModule": true,
+
+    // ... other options
+
+    "esModuleInterop": true
+  },
+
+  "include": [
+    "cypress/integration/*.ts",
+    "scripts/readpdf.js",
+    "cypress/integration/CartTotal.1ts",
+    "cypress/integration/AdditionalTestCases/APIIntercept.ts",
+    "cypress/integration/AdditionalTestCases/CartTotal1.ts"
+  ]
+}

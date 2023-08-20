@@ -1,0 +1,5 @@
+{
+  "noUser": { "password": "123456543" },
+  "noPassword": { "user": "Vishal24" },
+  "invaliduser": { "user": "v", "password": "123456" }
+}

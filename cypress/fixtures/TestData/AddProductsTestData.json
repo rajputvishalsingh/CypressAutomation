@@ -1,0 +1,21 @@
+{
+  "oneproducts": ["lumia 1520"],
+  "twoproducts": ["galaxy s6", "lumia 1520"],
+  "multipleproducts": ["galaxy s6", "Nexus 6", "vaio i5", "One M9"],
+  "formDetails": {
+    "name": "Vishal",
+    "country": "India",
+    "city": "Hyderabad",
+    "card": "1234123412341234",
+    "month": "August",
+    "year": "2023"
+  },
+  "EmptyformDetails": {
+    "name": "",
+    "country": "",
+    "city": "",
+    "card": "",
+    "month": "",
+    "year": ""
+  }
+}

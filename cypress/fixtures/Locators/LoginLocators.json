@@ -1,0 +1,6 @@
+{
+  "loginLink": "#login2",
+  "loginButton": "button[onclick='logIn()']",
+  "loginUser": "#nameofuser",
+  "homeLink": "Home"
+}

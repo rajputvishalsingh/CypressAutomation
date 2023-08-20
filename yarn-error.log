@@ -1,0 +1,37 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\vsingh24\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add cypress-real-events
+
+PATH: 
+  C:\Python311\Scripts\;C:\Python311\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\windows\CCM;C:\windows\CCM;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk-19\bin;C:\apache-maven-3.8.7\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Users\vsingh24\AppData\Local\Microsoft\WindowsApps;C:\Users\vsingh24\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\vsingh24\AppData\Roaming\npm;C:\apache-maven-3.8.7\bin;C:\Program Files\Java\jdk-19\bin;C:\Program Files\nodejs;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: self-signed certificate in certificate chain
+      at TLSSocket.onConnectSecure (node:_tls_wrap:1550:34)
+      at TLSSocket.emit (node:events:514:28)
+      at TLSSocket._finishInit (node:_tls_wrap:967:8)
+      at ssl.onhandshakedone (node:_tls_wrap:743:12)
+
+npm manifest: 
+  {
+    "dependencies": {
+      "cypress": "^12.17.3",
+      "cypress-downloadfile": "^1.2.3",
+      "pdf-parse": "^1.1.1",
+      "typescript": "^5.1.6"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
