@@ -29,20 +29,23 @@ Cypress.Commands.add("login", (user, password) => {
 require("cypress-downloadfile/lib/downloadFileCommand");
 require("cy-verify-downloads").addCustomCommand();
 Cypress.Commands.add("clearCart", () => {
-  // cy.request("POST", "https://api.demoblaze.com/login", {
-  //   username: LoginTestData.user,
-  //   password: "MTIzNDU2",
-  // }).then((Response) => {
-  //   cy.log(Response.body);
-  cy.request("POST", "https://api.demoblaze.com/viewcart", {
-    cookie: "VmlzaGFsMjQxNjkyODQ2",
-    flag: true,
-  }).then((response) => {
-    cy.log(response.body.Items);
-    response.body.Items.forEach((item) => {
-      cy.request("POST", "https://api.demoblaze.com/deleteitem", item);
+  cy.request("POST", "https://api.demoblaze.com/login", {
+    username: LoginTestData.user,
+    password: "MTIzNDU2",
+  }).then((Response) => {
+    cy.log(Response.body);
+    var res = Response.body.split(" ");
+    let resArray: string = res[1];
+    cy.request("POST", "https://api.demoblaze.com/viewcart", {
+      cookie: resArray,
+      flag: true,
+    }).then((response) => {
+      cy.log(response.body.Items);
+      response.body.Items.forEach((item) => {
+        cy.request("POST", "https://api.demoblaze.com/deleteitem", item);
+      });
+      cy.log(response.body.Items.toString());
     });
-    cy.log(response.body.Items.toString());
   });
 });
 //

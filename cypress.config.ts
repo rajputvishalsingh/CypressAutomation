@@ -14,6 +14,14 @@ export default defineConfig({
     defaultCommandTimeout: 10000,
     pageLoadTimeout: 60000,
     chromeWebSecurity: false,
+    reporter: "mochawesome",
+    reporterOptions: {
+      autoOpen: true,
+      showPassed: false,
+      overWrite: true,
+      reportPageTitle: "DemoBlaze-Report",
+      reportDir: "TestReport",
+    },
     env: {
       url: "http://demoblaze.com/index.html",
       url1: "https://reqres.in/",

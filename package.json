@@ -13,10 +13,14 @@
     "chromeTest": "npm run test --browser chrome",
     "recordDashBoardTest": "npm run test --record --key fa423514-5a84-42a7-b6a0-b5e7191bba12 --reporter mochawesome",
     "demoBlaze": "npm run test --spec \"cypress/integration/*\"",
-    "sauceDemo":"npm run test --spec \"cypress/integration/additionaltestcases/CartTotal.ts\""
+    "sauceDemo": "npm run test --spec \"cypress/integration/additionaltestcases/CartTotal.ts\""
   },
   "devDependencies": {
     "cy-verify-downloads": "^0.1.15",
-    "cypress": "^12.17.3"
+    "cypress": "^12.17.3",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0"
   }
 }
